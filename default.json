@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default preset for use with the Element Web stack of projects",
+  "extends": [
+      "config:base",
+      ":dependencyDashboardApproval"
+  ],
+  "labels": ["T-Task", "Dependencies"],
+  "lockFileMaintenance": { "enabled": true },
+  "groupName": "all",
+  "packageRules": [{
+      "matchFiles": ["package.json"],
+      "rangeStrategy": "update-lockfile"
+  }],
+  "platformAutomerge": true,
+  "automerge": true,
+  "automergeType": "pr",
+  "configMigration": true,
+  "dependencyDashboard": true,
+  "prCreation": "not-pending"
+}
