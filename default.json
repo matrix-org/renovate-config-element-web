@@ -3,11 +3,19 @@
   "description": "Default preset for use with the Element Web stack of projects",
   "extends": [
       "config:base",
+      "packages:react",
+      "packages:linters",
+      "packages:postcss",
+      "packages:jsUnitTest",
+      "group:monorepos",
+      "group:recommended",
+      "group:allNonMajor",
+      "npm:unpublishSafe",
+      "helpers:disableTypesNodeMajor",
       ":dependencyDashboardApproval"
   ],
   "labels": ["T-Task", "Dependencies"],
   "lockFileMaintenance": { "enabled": true },
-  "groupName": "all",
   "packageRules": [{
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
