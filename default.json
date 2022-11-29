@@ -7,9 +7,10 @@
       "packages:linters",
       "packages:postcss",
       "packages:jsUnitTest",
+      "group:allNonMajor",
+      "group:definitelyTyped",
       "group:monorepos",
       "group:recommended",
-      "group:allNonMajor",
       "npm:unpublishSafe",
       "helpers:disableTypesNodeMajor",
       ":dependencyDashboardApproval"
@@ -19,7 +20,12 @@
   "packageRules": [{
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
-  }],
+  }, {
+      "groupName": "react-types",
+      "matchPackagePrefixes": [
+        "@types/react"
+      ]
+    }],
   "platformAutomerge": true,
   "automerge": true,
   "automergeType": "pr",
