@@ -25,7 +25,17 @@
       "matchPackagePrefixes": [
         "@types/react"
       ]
-    }],
+  }, {
+      "groupName": "linkify",
+      "matchPackagePrefixes": [
+        "linkify"
+      ]
+  }, {
+      "groupName": "postcss-hexrgba-bad-semver",
+      "matchPackageNames": [
+        "postcss-hexrgba"
+      ]
+  }],
   "platformAutomerge": true,
   "automerge": true,
   "automergeType": "pr",
