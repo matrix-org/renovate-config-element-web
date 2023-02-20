@@ -21,6 +21,11 @@
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
+      "groupName": "@types/css-font-loading-module",
+      "matchPackagePrefixes": [
+        "@types/css-font-loading-module"
+      ]
+  }, {
       "groupName": "react-types",
       "matchPackagePrefixes": [
         "@types/react"
