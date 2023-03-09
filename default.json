@@ -16,6 +16,7 @@
       ":dependencyDashboardApproval"
   ],
   "labels": ["T-Task", "Dependencies"],
+  "semanticCommits": "disabled",
   "lockFileMaintenance": { "enabled": true },
   "packageRules": [{
       "matchFiles": ["package.json"],
