@@ -41,6 +41,12 @@
       "matchPackageNames": [
         "postcss-hexrgba"
       ]
+  }, {
+      "groupName": "electron-builder",
+      "matchPackageNames": [
+        "electron-builder",
+        "app-builder-lib"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
