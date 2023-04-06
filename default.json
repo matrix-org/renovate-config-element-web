@@ -35,6 +35,10 @@
       "groupName": "jest",
       "matchPackagePrefixes": [
         "jest"
+      ],
+      "matchPackageNames": [
+        "@types/jest",
+        "babel-jest"
       ]
   }, {
       "groupName": "linkify",
