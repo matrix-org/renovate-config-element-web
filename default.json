@@ -32,6 +32,11 @@
         "@types/react"
       ]
   }, {
+      "groupName": "jest",
+      "matchPackagePrefixes": [
+        "jest"
+      ]
+  }, {
       "groupName": "linkify",
       "matchPackagePrefixes": [
         "linkify"
