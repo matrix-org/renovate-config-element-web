@@ -47,11 +47,15 @@
         "electron-builder",
         "app-builder-lib"
       ]
+  }, {
+      "groupName": "axe",
+      "matchPackageNames": [
+        "axe-core"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
   "automergeType": "pr",
   "configMigration": true,
-  "dependencyDashboard": true,
-  "prCreation": "not-pending"
+  "dependencyDashboard": true
 }
