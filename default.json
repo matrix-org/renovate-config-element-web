@@ -66,5 +66,7 @@
   "automerge": true,
   "automergeType": "pr",
   "configMigration": true,
-  "dependencyDashboard": true
+  "dependencyDashboard": true,
+  "rebaseWhen": "conflicted",
+  "prConcurrentLimit": 5
 }
