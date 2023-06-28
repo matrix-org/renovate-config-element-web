@@ -68,5 +68,6 @@
   "configMigration": true,
   "dependencyDashboard": true,
   "rebaseWhen": "conflicted",
-  "prConcurrentLimit": 5
+  "prConcurrentLimit": 5,
+  "draftPR": true
 }
