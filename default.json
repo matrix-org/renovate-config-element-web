@@ -61,6 +61,11 @@
       "matchPackageNames": [
         "axe-core"
       ]
+  }, {
+      "groupName": "docker",
+      "matchPackagePrefixes": [
+        "docker"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
