@@ -66,6 +66,16 @@
       "matchPackagePrefixes": [
         "docker"
       ]
+  }, {
+      "groupName": "vector-im",
+      "matchPackagePrefixes": [
+        "@vector-im/"
+      ]
+  }, {
+      "groupName": "matrix-org",
+      "matchPackagePrefixes": [
+        "@matrix-org/"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
