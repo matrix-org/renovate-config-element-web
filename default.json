@@ -76,6 +76,11 @@
       "matchPackagePrefixes": [
         "@matrix-org/"
       ]
+  }, {
+      "groupName": "typedoc",
+      "matchPackagePrefixes": [
+        "typedoc"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
