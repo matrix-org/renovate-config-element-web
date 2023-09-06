@@ -81,6 +81,11 @@
       "matchPackagePrefixes": [
         "typedoc"
       ]
+  }, {
+      "groupName": "typescript",
+      "matchPackageNames": [
+        "typescript"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
