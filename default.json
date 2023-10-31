@@ -86,6 +86,11 @@
       "matchPackageNames": [
         "typescript"
       ]
+  }, {
+      "groupName": "jest-sonar-reporter",
+      "matchPackageNames": [
+        "@casualbot/jest-sonar-reporter"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
