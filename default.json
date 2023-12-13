@@ -46,6 +46,11 @@
         "linkify"
       ]
   }, {
+      "groupName": "stylelint",
+      "matchPackagePrefixes": [
+        "stylelint"
+      ]
+  }, {
       "groupName": "postcss-hexrgba-bad-semver",
       "matchPackageNames": [
         "postcss-hexrgba"
