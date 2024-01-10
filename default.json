@@ -59,6 +59,7 @@
       "groupName": "electron-builder",
       "matchPackageNames": [
         "electron-builder",
+        "electron-builder-squirrel-windows",
         "app-builder-lib"
       ]
   }, {
