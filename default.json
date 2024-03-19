@@ -22,9 +22,11 @@
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
-      "groupName": "@types/css-font-loading-module",
+      "groupName": "css",
       "matchPackagePrefixes": [
-        "@types/css-font-loading-module"
+        "@types/css-font-loading-module",
+        "mini-css-extract-plugin",
+        "postcss"
       ]
   }, {
       "groupName": "react-types",
@@ -49,11 +51,6 @@
       "groupName": "stylelint",
       "matchPackagePrefixes": [
         "stylelint"
-      ]
-  }, {
-      "groupName": "postcss-hexrgba-bad-semver",
-      "matchPackageNames": [
-        "postcss-hexrgba"
       ]
   }, {
       "groupName": "electron-builder",
