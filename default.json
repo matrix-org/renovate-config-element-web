@@ -94,6 +94,11 @@
       "matchPackageNames": [
         "@casualbot/jest-sonar-reporter"
       ]
+  }, {
+      "groupName": "resolutions",
+      "matchPackageNames": [
+        "@floating-ui/react"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
