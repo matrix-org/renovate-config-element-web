@@ -82,6 +82,11 @@
         "matrix-"
       ]
   }, {
+      "groupName": "matrix-events-sdk",
+      "matchPackageNames": [
+        "matrix-events-sdk"
+      ]
+  }, {
       "groupName": "typedoc",
       "matchPackagePrefixes": [
         "typedoc"
