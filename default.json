@@ -101,6 +101,12 @@
       "matchPackageNames": [
         "@floating-ui/react"
       ]
+  }, {
+      "groupName": "browserslist",
+      "matchPackageNames": [
+        "browserslist",
+        "caniuse-lite"
+      ]
   }],
   "platformAutomerge": true,
   "automerge": true,
