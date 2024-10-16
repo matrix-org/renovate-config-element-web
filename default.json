@@ -22,88 +22,89 @@
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
+      "groupName": "playwright",
+      "matchDepNames": "/playwright/"
+  }, {
       "groupName": "css",
-      "matchPackagePrefixes": [
-        "@types/css-font-loading-module",
-        "mini-css-extract-plugin",
-        "postcss"
+      "matchDepNames": [
+        "@types/css-font-loading-module{/,}**",
+        "mini-css-extract-plugin{/,}**",
+        "postcss{/,}**"
       ]
   }, {
       "groupName": "react-types",
-      "matchPackagePrefixes": [
-        "@types/react"
+      "matchDepNames": [
+        "@types/react{/,}**"
       ]
   }, {
       "groupName": "jest",
-      "matchPackagePrefixes": [
-        "jest"
-      ],
-      "matchPackageNames": [
+      "matchDepNames": [
+        "jest{/,}**",
         "@types/jest",
         "babel-jest",
         "@casualbot/jest-sonar-reporter"
       ]
   }, {
       "groupName": "linkify",
-      "matchPackagePrefixes": [
-        "linkify"
+      "matchDepNames": [
+        "linkify{/,}**"
       ]
   }, {
       "groupName": "stylelint",
-      "matchPackagePrefixes": [
-        "stylelint"
+      "matchDepNames": [
+        "stylelint{/,}**"
       ]
   }, {
       "groupName": "electron-builder",
-      "matchPackageNames": [
+      "matchDepNames": [
         "electron-builder",
         "electron-builder-squirrel-windows",
         "app-builder-lib"
       ]
   }, {
       "groupName": "axe",
-      "matchPackageNames": [
+      "matchDepNames": [
         "axe-core"
       ]
   }, {
       "groupName": "docker",
-      "matchPackagePrefixes": [
-        "docker"
+      "matchDepNames": [
+        "docker{/,}**"
       ]
   }, {
       "groupName": "vector-im",
-      "matchPackagePrefixes": [
-        "@vector-im/"
+      "matchDepNames": [
+        "@vector-im/{/,}**"
       ]
   }, {
       "groupName": "matrix-org",
-      "matchPackagePrefixes": [
-        "@matrix-org/",
-        "matrix-"
+      "matchDepNames": [
+        "@matrix-org/{/,}**",
+        "matrix-{/,}**"
       ]
   }, {
       "groupName": "matrix-events-sdk",
-      "matchPackageNames": [
+      "matchDepNames": [
         "matrix-events-sdk"
       ]
   }, {
       "groupName": "typedoc",
-      "matchPackagePrefixes": [
-        "typedoc"
+      "matchDepNames": [
+        "typedoc{/,}**"
       ]
   }, {
       "groupName": "typescript",
-      "matchPackageNames": [
+      "matchDepNames": [
         "typescript"
       ]
   }, {
       "groupName": "resolutions",
-      "matchPackageNames": [
+      "matchDepNames": [
         "@floating-ui/react"
       ]
   }, {
       "groupName": "browserslist",
-      "matchPackageNames": [
+      "matchDepNames": [
         "browserslist",
         "caniuse-lite"
       ]
