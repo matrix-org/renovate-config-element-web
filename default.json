@@ -22,6 +22,9 @@
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
+      "groupName": "electron",
+      "matchDepNames": "/electron/"
+  }, {
       "groupName": "playwright",
       "matchDepNames": "/playwright/"
   }, {
