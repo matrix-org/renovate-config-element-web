@@ -93,7 +93,7 @@
   }, {
       "groupName": "typedoc",
       "matchDepNames": [
-        "typedoc{/,}**"
+        "/typedoc/"
       ]
   }, {
       "groupName": "typescript",
