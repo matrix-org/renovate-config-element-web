@@ -101,6 +101,11 @@
         "typescript"
       ]
   }, {
+      "groupName": "posthog",
+      "matchDepNames": [
+        "/posthog/"
+      ]
+  }, {
       "groupName": "resolutions",
       "matchDepNames": [
         "@floating-ui/react"
