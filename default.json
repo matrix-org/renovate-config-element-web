@@ -35,11 +35,6 @@
         "postcss{/,}**"
       ]
   }, {
-      "groupName": "react-types",
-      "matchDepNames": [
-        "@types/react{/,}**"
-      ]
-  }, {
       "groupName": "jest",
       "matchDepNames": [
         "jest{/,}**",
