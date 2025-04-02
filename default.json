@@ -106,9 +106,10 @@
         "@floating-ui/react"
       ]
   }, {
-      "groupName": "eslintplugmorg",
+      "groupName": "eslint",
       "matchDepNames": [
-        "eslint-plugin-matrix-org"
+        "eslint",
+        "eslint-plugin-**"
       ]
   }, {
       "groupName": "browserslist",
