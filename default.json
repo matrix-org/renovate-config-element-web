@@ -109,6 +109,7 @@
       "groupName": "eslint",
       "matchDepNames": [
         "eslint",
+        "eslint-plugin-matrix-org",
         "eslint-plugin-**"
       ]
   }, {
