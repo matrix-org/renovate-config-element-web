@@ -43,16 +43,6 @@
         "@casualbot/jest-sonar-reporter"
       ]
   }, {
-      "groupName": "linkify",
-      "matchDepNames": [
-        "linkify{/,}**"
-      ]
-  }, {
-      "groupName": "stylelint",
-      "matchDepNames": [
-        "stylelint{/,}**"
-      ]
-  }, {
       "groupName": "electron-builder",
       "matchDepNames": [
         "electron-builder",
@@ -96,11 +86,6 @@
         "typescript"
       ]
   }, {
-      "groupName": "posthog",
-      "matchDepNames": [
-        "/posthog/"
-      ]
-  }, {
       "groupName": "resolutions",
       "matchDepNames": [
         "@floating-ui/react"
@@ -119,6 +104,7 @@
         "caniuse-lite"
       ]
   }],
+  "pinDigests": true,
   "platformAutomerge": true,
   "automerge": true,
   "automergeType": "pr",
