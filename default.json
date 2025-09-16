@@ -76,19 +76,10 @@
         "matrix-events-sdk"
       ]
   }, {
-      "groupName": "typedoc",
-      "matchDepNames": [
-        "/typedoc/"
-      ]
-  }, {
       "groupName": "typescript",
       "matchDepNames": [
-        "typescript"
-      ]
-  }, {
-      "groupName": "resolutions",
-      "matchDepNames": [
-        "@floating-ui/react"
+        "typescript",
+        "/typedoc/"
       ]
   }, {
       "groupName": "eslint",
@@ -102,6 +93,11 @@
       "matchDepNames": [
         "browserslist",
         "caniuse-lite"
+      ]
+  }, {
+      "groupName": "ua-parser-js",
+      "matchDepNames": [
+        "ua-parser-js"
       ]
   }],
   "pinDigests": true,
