@@ -76,6 +76,11 @@
         "matrix-events-sdk"
       ]
   }, {
+    "groupName": "Element Call",
+    "matchDepNames": [
+      "@element-hq/element-call-embedded"
+    ]
+  }, {
       "groupName": "typescript",
       "matchDepNames": [
         "typescript",
