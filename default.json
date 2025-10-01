@@ -60,6 +60,11 @@
         "docker{/,}**"
       ]
   }, {
+    "groupName": "storybook",
+    "matchDepNames": [
+      "@storybook/{/,}**"
+    ]
+  }, {
       "groupName": "vector-im",
       "matchDepNames": [
         "@vector-im/{/,}**"
