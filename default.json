@@ -95,17 +95,14 @@
   }, {
       "groupName": "eslint",
       "matchDepNames": [
-        "eslint"
+        "eslint",
+        "eslint-plugin-n",
+        "eslint-plugin-unicorn"
       ]
   }, {
       "groupName": "eslint-plugins",
       "matchDepNames": [
         "eslint-plugin-**"
-      ]
-  }, {
-      "groupName": "eslint-plugin-n",
-      "matchDepNames": [
-        "eslint-plugin-n"
       ]
   }, {
       "groupName": "browserslist",
