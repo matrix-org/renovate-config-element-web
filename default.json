@@ -103,6 +103,11 @@
         "eslint-plugin-**"
       ]
   }, {
+      "groupName": "eslint-plugin-n",
+      "matchDepNames": [
+        "eslint-plugin-n"
+      ]
+  }, {
       "groupName": "browserslist",
       "matchDepNames": [
         "browserslist",
