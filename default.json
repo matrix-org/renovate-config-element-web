@@ -95,8 +95,11 @@
   }, {
       "groupName": "eslint",
       "matchDepNames": [
-        "eslint",
-        "eslint-plugin-matrix-org",
+        "eslint"
+      ]
+  }, {
+      "groupName": "eslint-plugins",
+      "matchDepNames": [
         "eslint-plugin-**"
       ]
   }, {
