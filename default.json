@@ -93,16 +93,16 @@
         "/typedoc/"
       ]
   }, {
+      "groupName": "eslint-plugins",
+      "matchDepNames": [
+        "eslint-plugin-**"
+      ]
+  }, {
       "groupName": "eslint",
       "matchDepNames": [
         "eslint",
         "eslint-plugin-n",
         "eslint-plugin-unicorn"
-      ]
-  }, {
-      "groupName": "eslint-plugins",
-      "matchDepNames": [
-        "eslint-plugin-**"
       ]
   }, {
       "groupName": "browserslist",
