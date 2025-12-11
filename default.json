@@ -7,7 +7,6 @@
       "packages:linters",
       "packages:postcss",
       "packages:jsUnitTest",
-      "group:allNonMajor",
       "group:definitelyTyped",
       "group:monorepos",
       "group:recommended",
@@ -19,6 +18,16 @@
   "semanticCommits": "disabled",
   "lockFileMaintenance": { "enabled": false },
   "packageRules": [{
+      "groupName": "{{manager}} non-major dependencies",
+      "groupSlug": "{{manager}}-minor-patch",
+      "matchPackagePatterns": [
+          "*"
+      ],
+      "matchUpdateTypes": [
+          "minor",
+          "patch"
+      ]
+  }, {
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
