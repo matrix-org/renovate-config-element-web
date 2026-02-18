@@ -31,6 +31,9 @@
       "matchFiles": ["package.json"],
       "rangeStrategy": "update-lockfile"
   }, {
+      "groupName": "pnpm",
+      "matchDepNames": "pnpm"
+  }, {
       "groupName": "electron",
       "matchDepNames": "/electron/"
   }, {
