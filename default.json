@@ -127,6 +127,9 @@
       "matchDepNames": [
         "ua-parser-js"
       ]
+  }, {
+      "groupName": "module-api",
+      "matchDepNames": ["@element-hq/element-web-module-api"]
   }],
   "pinDigests": true,
   "platformAutomerge": true,
