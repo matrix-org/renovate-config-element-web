@@ -40,6 +40,9 @@
       "groupName": "playwright",
       "matchDepNames": "/playwright/"
   }, {
+      "groupName": "vite",
+      "matchDepNames": "/vite/"
+  }, {
       "groupName": "css",
       "matchDepNames": [
         "@types/css-font-loading-module{/,}**",
