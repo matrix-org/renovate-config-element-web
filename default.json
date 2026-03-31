@@ -3,9 +3,11 @@
   "description": "Default preset for use with the Element Web stack of projects",
   "extends": [
       "config:base",
-      "packages:react",
       "packages:linters",
       "packages:postcss",
+      "packages:stylelint",
+      "packages:eslint",
+      "packages:vite",
       "packages:jsUnitTest",
       "group:definitelyTyped",
       "group:monorepos",
@@ -35,7 +37,10 @@
       "matchDepNames": "pnpm"
   }, {
       "groupName": "electron",
-      "matchDepNames": "/electron/"
+      "matchDepNames": [
+        "/electron/",
+        "node-abi"
+      ]
   }, {
       "groupName": "playwright",
       "matchDepNames": "/playwright/"
@@ -49,6 +54,12 @@
         "mini-css-extract-plugin{/,}**",
         "postcss{/,}**"
       ]
+  }, {
+      "groupName": "babel",
+      "matchDepNames": "/babel/"
+  }, {
+      "groupName": "react",
+      "matchDepNames": "/react/"
   }, {
       "groupName": "jest",
       "matchDepNames": [
@@ -76,10 +87,7 @@
       ]
   }, {
     "groupName": "storybook",
-    "matchDepNames": [
-      "storybook",
-      "@storybook/{/,}**"
-    ]
+    "matchDepNames": ["/storybook/"]
   }, {
       "groupName": "vector-im",
       "matchDepNames": [
@@ -110,7 +118,8 @@
   }, {
       "groupName": "eslint-plugins",
       "matchDepNames": [
-        "eslint-plugin-**"
+        "eslint-plugin-**",
+        "/\/eslint-plugin/"
       ]
   }, {
       "groupName": "eslint",
@@ -130,6 +139,12 @@
       "matchDepNames": [
         "ua-parser-js"
       ]
+  }, {
+      "groupName": "webpack",
+      "matchDepNames": ["/webpack/"]
+  }, {
+      "groupName": "testcontainers",
+      "matchDepNames": ["/testcontainers/"]
   }, {
       "groupName": "module-api",
       "matchDepNames": ["@element-hq/element-web-module-api"]
