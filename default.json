@@ -48,6 +48,15 @@
       "groupName": "vite",
       "matchDepNames": "/vite/"
   }, {
+      "groupName": "nx",
+      "matchDepNames": [
+        "nx",
+        "@nx/**"
+      ]
+  }, {
+      "groupName": "sanitize",
+      "matchDepNames": "sanitize-**"
+  }, {
       "groupName": "css",
       "matchDepNames": [
         "@types/css-font-loading-module{/,}**",
