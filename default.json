@@ -157,7 +157,10 @@
   }, {
       "groupName": "module-api",
       "matchDepNames": ["@element-hq/element-web-module-api"]
-  }],
+  }, {
+      "groupName": "content-type",
+      "matchDepNames": ["content-type", "@types/content-type"]
+  },],
   "pinDigests": true,
   "platformAutomerge": true,
   "automerge": true,
