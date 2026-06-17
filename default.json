@@ -165,7 +165,13 @@
   }, {
       "groupName": "content-type",
       "matchDepNames": ["content-type", "@types/content-type"]
-  },],
+  }, {
+      "groupName": "unplugin",
+      "matchDepNames": ["unplugin-**"]
+  }, {
+      "groupName": "stylint",
+      "matchDepNames": ["stylelint**"]
+  }],
   "pinDigests": true,
   "platformAutomerge": true,
   "automerge": true,
