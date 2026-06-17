@@ -70,6 +70,11 @@
       "groupName": "react",
       "matchDepNames": "/react/"
   }, {
+      "groupName": "dnd-kit",
+      "matchDepNames": [
+        "@dnd-kit/{/,}**"
+      ]
+  }, {
       "groupName": "jest",
       "matchDepNames": [
         "jest{/,}**",
